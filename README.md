@@ -59,11 +59,11 @@ Easily set up Flutter and Android development environments on **macOS**, **Linux
 
 ### 📌 Notes
 
--- These scripts are meant for fresh development setups.
--- macOS requires Xcode Command Line Tools to be pre-installed.
--- Linux script assumes a Debian/Ubuntu-based distribution.
--- Windows script installs Git, Android SDK, and Flutter via Chocolatey.
--- Internet access is required during installation.
+- These scripts are meant for fresh development setups.
+- macOS requires Xcode Command Line Tools to be pre-installed.
+- Linux script assumes a Debian/Ubuntu-based distribution.
+- Windows script installs Git, Android SDK, and Flutter via Chocolatey.
+- Internet access is required during installation.
 
 ### 🤝 Contribute
 
