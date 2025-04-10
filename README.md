@@ -1,5 +1,3 @@
-# Flutter_Setup_Tool
-🛠 Flutter &amp; Android SDK One-Line Setup Scripts Easily set up Flutter and Android development environments on macOS, Linux, and Windows with a single script. No Android Studio required — just the essentials to get you building fast.  🚀 Perfect for beginners, fast prototyping, and minimal environments.
 # 🛠 Flutter & Android SDK One-Line Setup Scripts
 
 Easily set up Flutter and Android development environments on **macOS**, **Linux**, and **Windows** with minimal hassle. These scripts install the necessary tools and configure your environment so you can start building Flutter apps right away — **no Android Studio required**.
@@ -19,11 +17,11 @@ Easily set up Flutter and Android development environments on **macOS**, **Linux
 
 ## 📁 Script List
 
-| Platform | Script File             | Description                          |
-|----------|-------------------------|--------------------------------------|
-| macOS    | `setup-mac.command`     | macOS install and setup script       |
-| Linux    | `setup-linux.sh`        | Debian/Ubuntu-based install script   |
-| Windows  | `setup-windows.ps1`     | PowerShell script for Windows setup  |
+| Platform | Script File                                   | Description                          |
+|----------|-----------------------------------------------|--------------------------------------|
+| macOS    | `Flutter_setup-tool_macos.command`            | macOS install and setup script       |
+| Linux    | `Flutter_Setup_tool_ubuntu-debian.sh`         | Debian/Ubuntu-based install script   |
+| Windows  | `Flutter_setup_tool_windows64.ps1`            | PowerShell script for Windows setup  |
 
 ---
 
@@ -31,42 +29,46 @@ Easily set up Flutter and Android development environments on **macOS**, **Linux
 
 ### ✅ macOS
 
-1. Download the `setup-mac.command` file.
+1. Download the `Flutter_setup_tool_macos.command` file.
 2. Open Terminal and run the following to make it executable:
 
    ```bash
-   chmod +x setup-mac.command
+   chmod +x Flutter_setup_tool_macos.command
 
-### Windows
-
-Download the setup-windows.ps1 file.
-
-Right-click the file and choose Run with PowerShell.
-
-If you get a permissions error, open PowerShell as Admin and run(without the inverted commas):
-    "Set-ExecutionPolicy RemoteSigned"
-
-Then re-run the script.
-
-### Linux(Debian/Ubuntu)
-
-Download the setup-linux.sh file.
-
-Make it executable and run:
-    chmod +x setup-linux.sh
-    ./setup-linux.sh
-    
+3. Then run the script:
+   ```bash
+   ./Flutter_setup_tool_macos.command
 
 
-📌 Notes
-These scripts are meant for fresh development setups.
-macOS requires Xcode Command Line Tools to be pre-installed.
-Linux script assumes a Debian/Ubuntu-based distribution.
-Windows script installs Git, Android SDK, and Flutter via Chocolatey.
-Internet access is required during installation.
+### ✅ Windows
 
-🤝 Contribute
+1. Download the `Flutter_setup_tool_windows64` file.
+2. Right-click the file and choose "Run with PowerShell."
+3. If you get a permissions error, open PowerShell as Administrator and run:
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned
+
+4. Then re-run the script.
+
+### ✅ Linux (Debian/Ubuntu)
+
+1. Download the `Flutter_setup_tool_ubuntu-debian.sh` file.
+2. Make it executable and run:
+   ```bash-
+   chmod +x Flutter_setup_tool_ubuntu-debian.sh
+
+### 📌 Notes
+
+-- These scripts are meant for fresh development setups.
+-- macOS requires Xcode Command Line Tools to be pre-installed.
+-- Linux script assumes a Debian/Ubuntu-based distribution.
+-- Windows script installs Git, Android SDK, and Flutter via Chocolatey.
+-- Internet access is required during installation.
+
+### 🤝 Contribute
+
 Got a better idea or found a bug? Feel free to submit a pull request or open an issue. Help improve these scripts for devs everywhere 🚀
 
-🧠 License
+### 🧠 License
+
 MIT License – Do whatever you want, just don't blame me if something breaks. 😄
